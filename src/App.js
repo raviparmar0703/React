@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Conditinolcom from './components/conditinolcom';
+import Counter from './components/Counter';
+import Product from './components/product';
+
+// import Demo from './components/profile';
+// import Hello from './components/hello';
+// import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hello/>
+      <Message name='ravi class compo. props'/> */}
+
+      
+      {/* <Demo name="Ravi"/>
+      <Demo name="Ravi" lastname="Parmar"/>
+      <Demo name="Praful" lastname="Parmar">
+        <p>THis is a childern components</p>
+      </Demo> */}
+      <Counter/>
+      <Conditinolcom/>
+      <Product/>
+
+
     </div>
   );
 }
